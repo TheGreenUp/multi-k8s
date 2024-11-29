@@ -1,4 +1,12 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from 'react';
+import Fib from './Fib';
 
-test('renders learn react link', () => {});
+function App() {
+    return (
+        <div className="App">
+            <Fib />
+        </div>
+    );
+}
+
+export default App;
